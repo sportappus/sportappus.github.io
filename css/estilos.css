@@ -58,13 +58,14 @@
 }
 
 .app{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato Black 900', sans-serif;
+    font-weight: bolder;
     color: #4f5051;
 }
 /* FOOTER */
 
 footer{
-    background-color: #181515;
+    background-color: black;
     height: 15%;
 }
 
