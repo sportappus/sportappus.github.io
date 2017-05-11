@@ -1,0 +1,141 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    min-height: 50px;
+    border: 1px;
+    height: 50px;
+}
+
+.content-b {
+
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+    font-size: 100px;
+    color: white;
+    border: 1px black;
+    font-family: sans-serif;
+
+}
+
+.content-b2 {
+
+    display:table-cell;
+    position:relative;
+    vertical-align:middle;
+    text-align:center;
+    font-size: 50px;
+    color: #53B371;
+    border: 1px black;
+    font-family: sans-serif;
+}
+
+.logoMarca{
+    height:70px;
+    position: relative;
+    margin-top: -10px;
+}
+
+.celus{
+    height: 300px;
+    width: auto;
+}
+
+.pasos{
+    background-color: white;
+}
+
+.pasos img{
+    height: 500px;
+    width: auto;
+}
+
+
+.store{
+    height: 150px;
+    width: auto;
+}
+
+.app{
+    font-family: 'Lato', sans-serif;
+    color: #4f5051;
+}
+/* FOOTER */
+
+footer{
+    background-color: #181515;
+    height: 15%;
+}
+
+footer p{
+    position: relative;
+    line-height: 20px;
+    margin-top: 20px;
+    color: lightgrey;
+}
+
+.futer {
+    height: 130px;
+    width: 100%;
+    text-align: center;
+}
+
+.logos {
+    margin-top: 30px;
+}
+
+.preguntas {
+    margin-bottom: 30px;
+}
+.inglogo:hover {
+    content: url('../images/ing-hover.png');
+}
+
+.mailhover:hover {
+    content: url('../images/mail-hover.png');
+}
+.fblogo:hover {
+    content: url('../images/fb-hover.png');
+}
+.twlogo:hover {
+    content: url('../images/tw-hover.png');
+}
+
+#jover:hover {
+    color: #53B371;
+}
+
+@media (min-width: 768px){
+    .pasos img{
+        height: 400px;
+        width: auto;
+    }
+
+}   
+
+
+#counter{
+    margin-top: 50px;
+}
+.contador
+{
+    line-height: 100px;
+    color:white;
+    font-size:25px;
+    width: 100px;
+    height: 100px;
+    background: black;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    text-align: center;    
+    margin: 0 auto;
+}
+
+.textoContador{
+    font-size: 2em;
+    font-family: 'Raleway';
+    color: black;
+    font-weight: bolder;
+}
